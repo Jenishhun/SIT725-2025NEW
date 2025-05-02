@@ -1,0 +1,26 @@
+{
+    "name": "expense-splitter",
+    "version": "1.0.0",
+    "description": "Expense splitter app with MongoDB and Socket.io",
+    "main": "app.js",
+    "scripts": {
+        "start": "nodemon app.js"
+    },
+    "author": "Jenish Hun",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.20.2",
+        "dotenv": "^16.3.1",
+        "ejs": "^3.1.9",
+        "express": "^4.18.2",
+        "mongoose": "^7.5.0",
+        "socket.io": "^4.7.2"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    },
+    "directories": {
+        "test": "tests"
+    },
+    "keywords": []
+}
